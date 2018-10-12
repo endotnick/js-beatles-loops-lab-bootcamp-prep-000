@@ -1,12 +1,16 @@
 // add solution here
-const theBeatlesPlay = () => {
+const theBeatlesPlay = (musicians, instruments) => {
   
 };
 
-const johnLennonFacts = () => {
+const johnLennonFacts = (facts) => {
   
 };
 
-const iLoveTheBeatles = () => {
-  
+const iLoveTheBeatles = (n) => {
+  const arr = [];
+  do {
+    arr.push('I love the Beatles!');
+    n++;
+  } while(n < 15;)
 };
