@@ -11,6 +11,7 @@ const johnLennonFacts = (facts) => {
   let i = 0;
   while (i < facts.length) {
     facts[i] = facts[i] + '!!!';
+    i++;
   }
   return facts;
 };
