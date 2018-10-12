@@ -4,7 +4,7 @@ const theBeatlesPlay = (musicians, instruments) => {
 };
 
 const johnLennonFacts = (facts) => {
-
+  
 };
 
 const iLoveTheBeatles = (n) => {
@@ -12,6 +12,6 @@ const iLoveTheBeatles = (n) => {
   do {
     arr.push('I love the Beatles!');
     n++;
-  } while(n < 15;)
+  } while(n < 15);
   return arr;
 };
